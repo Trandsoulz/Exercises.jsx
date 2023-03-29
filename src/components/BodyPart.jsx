@@ -7,7 +7,6 @@ const BodyPart = ({ item }) => {
   const { bodyPart, setBodyPart } = useContext(BodyContext);
   return (
     <Stack
-      type="button"
       alignItems="center"
       justifyContent="center"
       className="bodyPart-card"
@@ -19,7 +18,7 @@ const BodyPart = ({ item }) => {
         // width: "270px",
         height: "280px",
         cursor: "pointer",
-        // gap: "47px",
+        gap: "47px",
       }}
       onClick={() => {
         setBodyPart(item);
