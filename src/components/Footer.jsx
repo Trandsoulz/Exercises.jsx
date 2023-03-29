@@ -3,7 +3,7 @@ import FooterLogo from "../assets/images/Logo-1.png";
 
 const Footer = () => {
   return (
-    <Box mx="40px" bgColor="#fff3f4">
+    <Box mx="25px" bgColor="#fff3f4">
       <Stack gap="40px" alignItems="center" px="40px" py="24px">
         <img src={FooterLogo} alt="Logo" width="200px" height="40px" />
         <Typography variant="h5" color="#ff2526">
