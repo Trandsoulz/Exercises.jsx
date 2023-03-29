@@ -13,13 +13,13 @@ const Home = () => {
         <Exercises />
         {/* You can always click here, to reload */}
         <Button onClick={() => location.reload()}>Reload</Button>
-        <Button
+        {/* <Button
           variant="contained"
           sx={{ position: "fixed", bottom: 0, right: 0 }}
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
           To top
-        </Button>
+        </Button> */}
       </Box>
     </Suspense>
   );
