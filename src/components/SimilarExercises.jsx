@@ -95,7 +95,7 @@ const SimilarExercises = ({ targetMuscleExercise, equipmentExercise }) => {
         />
       </Stack>
 
-      <Stack mt="5">
+      {/* <Stack mt="5">
         <Typography variant="h5" textTransform="capitalize">
           Exercises that use thesame{" "}
           <span style={{ color: "#ff2625", textTransform: "capitalize" }}>
@@ -109,7 +109,7 @@ const SimilarExercises = ({ targetMuscleExercise, equipmentExercise }) => {
           alt="leftArrow"
         />
         <Slider ref={sliderRef} {...settings}>
-          {/* <BodyPart item={"All"} />
+        <BodyPart item={"All"} />
         <BodyPart item={"back"} />
         <BodyPart item={"cardio"} />
         <BodyPart item={"chest"} />
@@ -118,7 +118,7 @@ const SimilarExercises = ({ targetMuscleExercise, equipmentExercise }) => {
         <BodyPart item={"neck"} />
         <BodyPart item={"upper arms"} />
         <BodyPart item={"upper legs"} />
-        <BodyPart item={"waist"} /> */}
+        <BodyPart item={"waist"} /> 
           {equipmentExercise.length ? (
             equipmentExercise.map((item) => (
               <Box key={item.id} m="0 40px">
@@ -138,7 +138,7 @@ const SimilarExercises = ({ targetMuscleExercise, equipmentExercise }) => {
           onClick={next}
           alt="RightArrow"
         />
-      </Stack>
+      </Stack> */}
     </Box>
   );
 };

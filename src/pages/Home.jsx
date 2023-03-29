@@ -12,7 +12,7 @@ const Home = () => {
         <SearchExercises />
         <Exercises />
         {/* You can always click here, to reload */}
-        <Button onClick={() => location.reload()}>Reload</Button>
+        {/* <Button onClick={() => location.reload()}>Reload</Button> */}
         {/* <Button
           variant="contained"
           sx={{ position: "fixed", bottom: 0, right: 0 }}
